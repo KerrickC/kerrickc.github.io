@@ -1,0 +1,110 @@
+@font-face {
+    font-family: Moderne Sans;
+    src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/moderne_sans.woff2)
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    height:100%;
+    margin:0;
+    background-image: url(img/blue-sky-blur-clear-sky-color-281260.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+}
+
+
+.header {
+  padding:3vh;
+  width: 100%;
+  text-align: center;
+  color: white;
+  transition: .4s;
+  height:fit-content;
+  }
+
+  .header h1{
+    font-family: "Bungee";
+    text-align: center;
+    font-size: 5vw;
+    width: 100%;
+    letter-spacing: 1vh;
+    padding: 0.5vw;
+    margin-bottom:20px;
+    margin-top:20px;
+  
+  }
+
+.header:hover {
+    background: rgba(255,255,255,0.8);
+    color: #000;
+  }
+
+nav a {
+  text-decoration: none;
+  font-size:1.75vw;
+  color: inherit;
+  padding:4vw;
+  font-family: Moderne Sans, sans-serif;
+  }
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    color:black;
+}
+
+span{
+    font-size:1.75vw;
+    font-family: Moderne Sans, sans-serif;
+
+}
+
+a{
+  font-size:1.50vw;
+  text-decoration:none; 
+  color: #0062cc;
+  font-family: Moderne Sans, sans-serif;
+
+}
+
+.box{
+  margin-top:30px;
+}
+
+.box-part{
+    background:#FFF;
+    padding:60px 10px;
+    margin-bottom:30px;
+    border-radius: 1rem;
+
+}
+h4{
+  font-size:2.25vw;
+}
+
+.text{
+    margin:20px 0px;
+}
+
+.fa{
+     color:rgb(47, 137, 255);
+}
+
+.box-part a:hover{
+  color:rgb(47, 137, 255);
+  padding:10px;
+  text-decoration: none;
+  border:solid 1px;
+  border-radius: 100%;
+  
+}
+
