@@ -103,15 +103,20 @@ nav a:hover{
 
 h1{
   font-family: Moderne Sans, sans-serif;
-  font-size:3.5vw;
+  font-size:3vw;
 }
 
-#ACrole{
+.company_name{
+  font-weight: bold;
+}
+
+.description{
   font-size: 1.5vw;
 }
 
-#ACdesc{
-  font-size: 1.5vw;
+.exp{
+  background-color: gray;
+  width: fit-content;
 }
 
 
